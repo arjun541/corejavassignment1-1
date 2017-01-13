@@ -10,7 +10,7 @@ while(b!=0)
 {
   int c=(a&b);
   a=a^b;
-  b=count<<1;
+  b=c<<1;
 }
 
 System.out.println(a);
